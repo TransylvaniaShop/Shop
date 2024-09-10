@@ -472,6 +472,23 @@ button[type="submit"]:hover {
     font-size: var(--fs-7);
     margin-bottom: 12px;
   }
+
+.product-card {
+    display: flex;
+    flex-direction: column; /* Aranjează elementele pe verticală */
+    align-items: center; /* Centrează conținutul pe orizontală */
+  }
+  
+  .card-banner {
+    display: flex;
+    justify-content: center; /* Centrează video-ul în containerul său */
+    width: 100%; /* Asigură-te că containerul ocupă toată lățimea disponibilă */
+  }
+  
+  .video-contain {
+    max-width: 100%; /* Ajustează lățimea video-ului să fie maxim cât containerul */
+    height: auto; /* Păstrează proporțiile video-ului */
+  }
   
   .card-cat-link {
     display: inline-block;
